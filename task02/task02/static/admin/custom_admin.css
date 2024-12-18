@@ -1,0 +1,16 @@
+/* Custom Background for Admin Panel */
+body {
+    background-color: #f9f9f9 !important;
+}
+
+/* Custom Header */
+#header {
+    background-color: #003366 !important;
+    color: #ffffff !important;
+}
+
+/* Customize H1 Titles */
+h1 {
+    font-family: "Verdana", sans-serif;
+    color: #0099cc;
+}

@@ -1,0 +1,16 @@
+<!-- upload_form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload .docx to Convert</title>
+</head>
+<body>
+    <h2>Upload .docx file to convert it to PDF</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="docx_file" accept=".docx" required>
+        <button type="submit">Upload and Convert</button>
+    </form>
+</body>
+</html>
